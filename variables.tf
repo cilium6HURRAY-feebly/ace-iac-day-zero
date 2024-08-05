@@ -68,11 +68,11 @@ variable "azure_tenant_id" {
 }
 
 variable "azure_spoke_instance_size" {
-  default = "Standard_B1ms"
+  default = "Standard_B1s"
 }
 
 variable "azure_spoke2_region" {
-  default = "Canada Central"
+  default = "East US"
 }
 
 variable "azure_spoke2_name" {
@@ -84,7 +84,7 @@ variable "azure_spoke2_cidr" {
 }
 
 variable "azure_test_instance_size" {
-  default = "Standard_B1ms"
+  default = "Standard_B1s"
 }
 
 variable "ace_ec2_key_name" {
